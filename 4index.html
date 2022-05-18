@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <script
       src="https://kit.fontawesome.com/4b39a549d2.js"
       crossorigin="anonymous"
@@ -18,13 +18,16 @@
     />
   </head>
   <body>
+    <header>
     <h1>Kontakta oss</h1>
-    <div class="topnav">
+    <nav class="topnav">
       <a href="index.html">Home</a>
       <a href="2index.html">God mat!</a>
       <a href="3index.html">Recept</a>
       <a class="active" href="4index.html">Kontakt</a>
-    </div>
+    </nav>
+  </header>
+  <main>
     <div class="jordan">
       <img
         class="baller"
@@ -45,21 +48,7 @@
 </div>
 
 <div class="mail">
-    <label for="fnamn">Förnamn:</label><br />
-    <input
-      type="text"
-      name="fnamn"
-      id="fnamn"
-      placeholder="ditt förnamn"
-    /><br />
-
-    <label for="enamn">Efternamn:</label><br />
-    <input
-      type="text"
-      name="enamn"
-      id="enamn"
-      placeholder="ditt efternamn"
-    /><br />
+   
 
     <label for="epost">E-postadress:</label><br />
     <input
@@ -69,12 +58,33 @@
       placeholder="din e-postadress"
     />
     <br />
+
+    <label for="ärende">Ärenderad:</label><br />
+    <input
+      type="text"
+      name="ärende"
+      id="ärende"
+      placeholder="ärende"
+    /><br />
+
+
+    <label for="medelande">Medelanden:</label><br />
+    <input 
+      type="text"
+      name="medelande"
+      id="medelande"
+      placeholder="medelande"
+      style="height: 120px; width: 160px;"
+    /><br />
+
+
     <input type="submit" name="skicka" id="skicka" value="Skicka" />
 </form>
 </div>
-<div class="footer">
+</main>
+<footer class="footer">
     <p class="footer">Created by Gustav Lindström</p>
-  </div>
+</footer>
   <p>    . </p>
   <p>  .   </p>
   <p> .    </p>

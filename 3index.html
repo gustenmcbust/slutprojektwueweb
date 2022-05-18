@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <script
       src="https://kit.fontawesome.com/4b39a549d2.js"
       crossorigin="anonymous"
@@ -17,18 +17,66 @@
     />
   </head>
   <body>
-    <h1>Recept</h1>
-    <div class="topnav">
-      <a href="index.html">Home</a>
-      <a href="2index.html">God mat!</a>
-      <a class="active" href="3index.html">Recept</a>
-      <a href="4index.html">Kontakt</a>
-    </div>
-    <div class="Recept">
-      <img class="baller" src=" " alt="" />
-    </div>
-    <div class="footer">
+    <header>
+      <h1>Recept</h1>
+      <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="2index.html">God mat!</a>
+        <a class="active" href="3index.html">Recept</a>
+        <a href="4index.html">Kontakt</a>
+      </nav>
+    </header>
+    <main>
+      <div class="Recept">
+        <img class="baller" src=" " alt="" />
+      </div>
+      <h2>Recept betyg!</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+          </tr>
+          <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+          </tr>
+          <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+    <footer class="footer">
       <p class="footer">Created by Gustav Lindström</p>
-    </div>
+    </footer>
   </body>
 </html>
