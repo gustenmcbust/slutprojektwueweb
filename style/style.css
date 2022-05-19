@@ -121,3 +121,24 @@ tfoot {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.animation {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(-45deg, red, blue, green);
+  background-size: 400% 400%;
+  animation-name: gradient;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
