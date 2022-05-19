@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="java" href="namn.js" />
     <script
       src="https://kit.fontawesome.com/4b39a549d2.js"
       crossorigin="anonymous"
@@ -17,7 +18,7 @@
       rel="stylesheet"
     />
   </head>
-
+  <script src="namn.js"></script>
   <body>
     <header>
       <h1>Gustens goda recept!</h1>
@@ -30,13 +31,19 @@
     </header>
     <main>
       <section>
-        <div class="text">
+        <div class="text animation">
           <p class="text">Här visar vi den godaste svenska maten!</p>
         </div>
       </section>
       <div class="Home">
         <img class="baller" src="bilder/Svensk.png" alt="svensk" />
       </div>
+      <section>
+        <p id="submitted"></p>
+        <button onclick="submitForm()">Tryck inte!</button>
+      </section>
+      <p>.</p>
+      <p>.</p>
     </main>
     <footer class="footer">
       <p class="footer">Created by Gustav Lindström</p>
