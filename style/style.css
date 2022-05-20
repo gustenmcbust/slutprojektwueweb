@@ -142,3 +142,15 @@ tr:nth-child(even) {
     background-position: 0% 50%;
   }
 }
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  height: 500px;
+  width: 100%;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
